@@ -1,0 +1,25 @@
+@import "header.css";
+@import "navbar.css";
+
+* {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-outline-orange {
+    border: 1px #FFCC80 solid;
+}
+
+.bg-orange {
+    background-color: #FFCC80;
+}

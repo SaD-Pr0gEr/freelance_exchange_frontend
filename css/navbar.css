@@ -1,0 +1,28 @@
+.navbar-container {
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    z-index: 2;
+}
+
+.navbar-container ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container ul li {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #3C4852;
+    font-weight: 300;
+}
+
+.support-link {
+    font-weight: 700;
+}
+
+.support-link span {
+    margin-right: 5px;
+}
