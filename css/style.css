@@ -1,6 +1,7 @@
 @import "header.css";
 @import "navbar.css";
 @import "benefits.css";
+@import "work-steps.css";
 
 * {
     font-family: Roboto, sans-serif;
@@ -57,4 +58,9 @@
 
 .padd-5 {
     padding: 5px;
+}
+
+.text-mid {
+    font-weight: normal;
+    font-size: 15px;
 }

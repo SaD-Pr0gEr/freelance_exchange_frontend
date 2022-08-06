@@ -1,0 +1,44 @@
+.steps-title {
+    padding: 15px;
+    font-size: 40px;
+}
+
+.steps-title + hr {
+    margin-bottom: 50px;
+}
+
+.work_steps {
+    padding: 30px;
+}
+
+.steps-items {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.step-item {
+    width: 25%;
+}
+
+.step {
+    color: #FFCC80;
+    font-weight: bold;
+}
+
+.step-img {
+    margin-bottom: 20px;
+}
+
+.step-img img {
+    height: 250px;
+}
+
+.line-break {
+    width: 100%;
+}
+
+.specific-img {
+    margin-left: -60px;
+}
