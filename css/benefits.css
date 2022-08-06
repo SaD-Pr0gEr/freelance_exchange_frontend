@@ -1,0 +1,25 @@
+.benefits-title {
+    padding: 15px;
+    font-size: 40px;
+}
+
+.benefits-title + hr {
+    margin-bottom: 50px;
+}
+
+.benefits {
+    padding: 30px;
+}
+
+.benefits-items {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-img {
+    margin-bottom: 20px;
+}
+
+.benefit-item {
+    width: 25%;
+}
