@@ -24,7 +24,7 @@
                 <li><a href="#" class="nav-link">О сервисе</a></li>
                 <li><a href="#" class="nav-link support-link"><span><i class="fa-solid fa-circle-info"></i></span>Поддержка</a></li>
                 <li><button class="btn bg-orange login-btn">
-                    <a href="#" class="nav-link">Войти <span><i class="fa-solid fa-circle-user" style="font-size: 19px"></i></span></a>
+                    <a href="#" id="login-btn" class="nav-link">Войти <span><i class="fa-solid fa-circle-user" style="font-size: 19px"></i></span></a>
                 </button></li>
             </ul>
         </div>
@@ -171,5 +171,24 @@
             <li><button class="btn bg-orange"><a href="#" class="text-bold dark">Разместить заказ</a></button></li>
         </ul>
     </footer>
+
+    <!--    modals  -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content small-content text-center">
+            <span class="close" id="close">&times;</span>
+            <br><br>
+            <img class="modal-icon" src="img/logo.png" alt="logo">
+            <form action="#" method="POST">
+                <input type="text" class="form-control user-icon" placeholder="Login">
+                <br><br>
+                <input type="password" class="form-control lock-icon" placeholder="Password">
+                <br><br><br>
+                <button class="submit-btn btn bg-orange dark" type="submit">Войти</button>
+                <a href="#" class="btn btn-outline-orange dark text-bold" style="padding: 17px;">Регистрация</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
