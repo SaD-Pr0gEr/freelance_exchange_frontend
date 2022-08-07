@@ -1,10 +1,13 @@
-@import "header.css";
-@import "navbar.css";
-@import "benefits.css";
-@import "work-steps.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "main_page/navbar.css";
+@import "main_page/benefits.css";
+@import "main_page/work-steps.css";
+@import "main_page/guarantee.css";
+
 
 * {
-    font-family: Roboto, sans-serif;
+    font-family: Montserrat, Roboto, sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 0;
@@ -63,4 +66,21 @@
 .text-mid {
     font-weight: normal;
     font-size: 15px;
+}
+
+.bg-grey {
+    background-color: #F8F8F8;
+}
+
+.feature-title {
+    padding: 15px;
+    font-size: 40px;
+}
+
+.feature-title + hr {
+    margin-bottom: 50px;
+}
+
+.text-white {
+    color: white;
 }

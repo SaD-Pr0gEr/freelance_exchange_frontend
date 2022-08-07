@@ -1,12 +1,3 @@
-.benefits-title {
-    padding: 15px;
-    font-size: 40px;
-}
-
-.benefits-title + hr {
-    margin-bottom: 50px;
-}
-
 .benefits {
     padding: 30px;
 }

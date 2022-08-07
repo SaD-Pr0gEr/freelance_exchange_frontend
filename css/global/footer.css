@@ -1,0 +1,32 @@
+.footer {
+    background-color: #3C4852;
+    padding: 30px 20px 40px 50px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav .img-container {
+    border: 1px solid #FFFF;
+    padding: 0 15px 0 15px;
+    border-radius: 15px;
+}
+
+.footer-nav .img-container img {
+    width: 50px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.footer-nav-item {
+    margin-right: 10px;
+}
+
+
+.footer-nav li:nth-last-child(-n+3) {
+    margin-left: 80px;
+}
